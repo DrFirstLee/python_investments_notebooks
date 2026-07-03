@@ -1,0 +1,61 @@
+# ============================================================
+# Node / JavaScript 기본
+# ============================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv
+.env
+.env.*
+!.env.example
+
+# lock files (원하면 제외 가능)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# build output
+dist/
+build/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# MCP specific
+.cache/
+logs/
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains
+.idea/
+
+# Misc
+*.log
+*.tmp
+*.temp
+
+# Coverage & testing
+coverage/
+.nyc_output/
+
+# ============================================================
+# Project-specific ignores
+# ============================================================
+
+# Any local scratch or experimental files
+scratch/
+tmp/
