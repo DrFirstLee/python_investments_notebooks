@@ -1,0 +1,38 @@
+{
+    "name": "@drfirst/korea-stock-mcp",
+    "version": "1.0.4",
+    "description": "한국 주식 시장 데이터 조회 MCP 서버 (완전 Node.js)",
+    "type": "module",
+    "main": "index.js",
+    "bin": {
+        "korea-stock-mcp": "./index.js"
+    },
+    "files": [
+        "index.js",
+        "README.md"
+    ],
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [
+        "mcp",
+        "korea",
+        "stock",
+        "kospi",
+        "kosdaq",
+        "naver-finance"
+    ],
+    "author": "DrFirst",
+    "license": "MIT",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.22.0",
+        "axios": "^1.6.0",
+        "cheerio": "^1.1.2",
+        "follow-redirects": "^1.15.11",
+        "iconv-lite": "^0.7.0",
+        "zod": "^3.25.76"
+    }
+}
