@@ -1,0 +1,3 @@
+[submodule "3장/korea-stock-mcp"]
+	path = 3장/korea-stock-mcp
+	url = https://github.com/DrFirstLee/korea-stock-mcp.git
